@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Portfolio</title>
+ </head>
+ <body>
+     <header>
+         <h1>Welcome to My Portfolio</h1>
+         <nav>
+             <a href="#about">About</a>
+             <a href="#skills">Projects</a>
+             <a href="#contact">Contact</a>
+         </nav>
+     </header>
+     <main>
+         <section id="about">
+             <h2>About Me</h2>
+             <p style="color:blueviolet">Hi, My name is Lyndsey Clarkson. I am 36 years old and live in St. Charles, Missouri.
+                I have an amazing husband and two amazing daughters, ages four and two, that keep me busy. 
+                I am currently a letter carrier for USPS but am taking steps to transition into a career in
+                software development. </p>
+         </section>
+         <section id="skills">
+             <h2>My Skills</h2>
+             <table border="1">
+                <caption>My Skills and proficiency levels on a scale from 1 to 10, with 10 being very proficient.</caption>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Communication skills</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Orginization skills</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>HTML skills</td>
+                    <td>1</td>
+                </tr>
+             </table>
+         </section>
+         <section id="contact">
+            <h2>Contact Form</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+         </section>
+         <footer>
+             <p>&copy; 2026 My Portfolio</p>
+         </footer>
+     </main>
+ </body>
